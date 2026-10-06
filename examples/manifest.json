@@ -1,0 +1,93 @@
+{
+  "input": {
+    "id": "jev-auto-annonce-preuve-demo",
+    "ad": {
+      "docId": "a",
+      "vehicleId": "DEMO-VEHICULE-01",
+      "date": "2026-10-01",
+      "km": 92000
+    },
+    "history": {
+      "docId": "b",
+      "vehicleId": "DEMO-VEHICULE-01",
+      "ownerCount": 1,
+      "recordedAccident": false
+    },
+    "readings": [
+      {
+        "docId": "c",
+        "date": "2024-10-01",
+        "km": 70000
+      },
+      {
+        "docId": "d",
+        "date": "2026-09-01",
+        "km": 91000
+      }
+    ],
+    "claims": [
+      {
+        "id": "suivi",
+        "docId": "a",
+        "kind": "entretien",
+        "description": "Toutes les révisions annuelles depuis 2020 sont documentées.",
+        "proof": {
+          "docId": "e",
+          "description": "Factures de toutes les révisions annuelles de 2020 à 2026."
+        }
+      }
+    ]
+  },
+  "documents": [
+    {
+      "id": "a",
+      "file": "pieces/a.txt",
+      "source": {
+        "uri": "fixture:a",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "id": "b",
+      "file": "pieces/b.txt",
+      "source": {
+        "uri": "fixture:b",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "id": "c",
+      "file": "pieces/c.txt",
+      "source": {
+        "uri": "fixture:c",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "id": "d",
+      "file": "pieces/d.txt",
+      "source": {
+        "uri": "fixture:d",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "id": "e",
+      "file": "pieces/e.txt",
+      "source": {
+        "uri": "fixture:e",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    }
+  ]
+}

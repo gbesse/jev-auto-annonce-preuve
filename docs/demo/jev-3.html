@@ -1,0 +1,38 @@
+<!doctype html><html lang="fr"><meta charset="utf-8"><title>Rapport jev-auto-annonce-preuve-entretien-partiel</title><style>body{font:16px system-ui;max-width:1000px;margin:3rem auto;padding:0 1rem;background:#f7f9fc;color:#14293d}article{background:white;padding:1rem;margin:1rem 0;border:1px solid #ccd5df}pre{white-space:pre-wrap}small{color:#46596b}</style><h1>jev-auto-annonce-preuve-entretien-partiel — a_revoir</h1><p>Mode : jev. Seuils de démarrage non calibrés sur des documents réels.</p><article><h2>Même véhicule dans les pièces : etaye</h2><p>Contrôle exact satisfait.</p><p>Vérifier les pièces et corriger les données.</p><details><summary>a — fixture:a</summary><pre>DEMO-VEHICULE-01
+2026-10-01
+92000
+suivi
+entretien
+Toutes les révisions annuelles depuis 2020 sont documentées.</pre><small>SHA-256 3f7773b05394c51b89a53e32311937c4f6e4eed4c102f1939bfe17aa33f744b9</small></details><details><summary>b — fixture:b</summary><pre>DEMO-VEHICULE-01
+1
+False</pre><small>SHA-256 fc9503f6a2c3ef5baa5fadf15977f0aa062f2075be36c63da18d21d5e65b9abf</small></details></article><article><h2>Kilométrage chronologique : etaye</h2><p>Contrôle exact satisfait.</p><p>Vérifier les pièces et corriger les données.</p><details><summary>c — fixture:c</summary><pre>2024-10-01
+70000</pre><small>SHA-256 9b79148d35bda9dbe309afd9d182152551e4966ae0b7846188a3fa65b7868790</small></details><details><summary>d — fixture:d</summary><pre>2026-09-01
+91000</pre><small>SHA-256 0c4e5350a1fa9d90216ad37b7567f37b346908b49df126239068469139e3f2e3</small></details></article><article><h2>Kilométrage de l’annonce : etaye</h2><p>Contrôle exact satisfait.</p><p>Vérifier les pièces et corriger les données.</p><details><summary>a — fixture:a</summary><pre>DEMO-VEHICULE-01
+2026-10-01
+92000
+suivi
+entretien
+Toutes les révisions annuelles depuis 2020 sont documentées.</pre><small>SHA-256 3f7773b05394c51b89a53e32311937c4f6e4eed4c102f1939bfe17aa33f744b9</small></details><details><summary>d — fixture:d</summary><pre>2026-09-01
+91000</pre><small>SHA-256 0c4e5350a1fa9d90216ad37b7567f37b346908b49df126239068469139e3f2e3</small></details></article><article><h2>Entretien documenté : a_revoir</h2><p>Preuve insuffisante ou seuil de revue atteint.</p><p>Comparer les passages et faire valider le rapprochement.</p><details><summary>Passages rapprochés</summary><h3>Passage gauche</h3><pre>Toutes les révisions annuelles depuis 2020 sont documentées.</pre><h3>Passage droit</h3><pre>Une facture de vidange en 2026 uniquement.</pre></details><p>Modèle : jev-1.13.0 · confiance : 0.62</p><details><summary>a — fixture:a</summary><pre>DEMO-VEHICULE-01
+2026-10-01
+92000
+suivi
+entretien
+Toutes les révisions annuelles depuis 2020 sont documentées.</pre><small>SHA-256 3f7773b05394c51b89a53e32311937c4f6e4eed4c102f1939bfe17aa33f744b9</small></details><details><summary>b — fixture:b</summary><pre>DEMO-VEHICULE-01
+1
+False</pre><small>SHA-256 fc9503f6a2c3ef5baa5fadf15977f0aa062f2075be36c63da18d21d5e65b9abf</small></details><details><summary>e — fixture:e</summary><pre>Une facture de vidange en 2026 uniquement.</pre><small>SHA-256 c18068db8d1f4dadba72e8eae9eddd0a74a5e471a3dc81fcb831d22e60cdea62</small></details></article><h2>Sorties métier</h2><pre>{
+  &quot;vehicule&quot;: &quot;DEMO-VEHICULE-01&quot;,
+  &quot;chronologieKilometrique&quot;: [
+    {
+      &quot;date&quot;: &quot;2024-10-01&quot;,
+      &quot;km&quot;: 70000,
+      &quot;docId&quot;: &quot;c&quot;
+    },
+    {
+      &quot;date&quot;: &quot;2026-09-01&quot;,
+      &quot;km&quot;: 91000,
+      &quot;docId&quot;: &quot;d&quot;
+    }
+  ],
+  &quot;limiteMetier&quot;: &quot;HistoVec est partagé par le propriétaire. Aucun accès par plaque arbitraire. L’absence d’accident enregistré ne prouve pas l’absence de tout accident.&quot;
+}</pre><p>Les champs structurés importés doivent être vérifiés contre les pièces originales. HistoVec est partagé par le propriétaire. Aucun accès par plaque arbitraire. L’absence d’accident enregistré ne prouve pas l’absence de tout accident. Un résultat étayé ne vaut ni certification ni décision juridique ou administrative.</p></html>

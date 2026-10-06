@@ -1,0 +1,91 @@
+{
+  "id": "jev-auto-annonce-preuve-compteur",
+  "ad": {
+    "docId": "a",
+    "vehicleId": "DEMO-VEHICULE-01",
+    "date": "2026-10-01",
+    "km": 92000
+  },
+  "history": {
+    "docId": "b",
+    "vehicleId": "DEMO-VEHICULE-01",
+    "ownerCount": 1,
+    "recordedAccident": false
+  },
+  "readings": [
+    {
+      "docId": "c",
+      "date": "2024-10-01",
+      "km": 70000
+    },
+    {
+      "docId": "d",
+      "date": "2026-09-01",
+      "km": 60000
+    }
+  ],
+  "claims": [
+    {
+      "id": "suivi",
+      "docId": "a",
+      "kind": "entretien",
+      "description": "Toutes les révisions annuelles depuis 2020 sont documentées.",
+      "proof": {
+        "docId": "e",
+        "description": "Factures de toutes les révisions annuelles de 2020 à 2026."
+      }
+    }
+  ],
+  "documents": [
+    {
+      "id": "a",
+      "text": "DEMO-VEHICULE-01\n2026-10-01\n92000\nsuivi\nentretien\nToutes les révisions annuelles depuis 2020 sont documentées.",
+      "source": {
+        "uri": "fixture:a",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "id": "b",
+      "text": "DEMO-VEHICULE-01\n1\nFalse",
+      "source": {
+        "uri": "fixture:b",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "id": "c",
+      "text": "2024-10-01\n70000",
+      "source": {
+        "uri": "fixture:c",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "id": "d",
+      "text": "2026-09-01\n60000",
+      "source": {
+        "uri": "fixture:d",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    },
+    {
+      "id": "e",
+      "text": "Factures de toutes les révisions annuelles de 2020 à 2026.",
+      "source": {
+        "uri": "fixture:e",
+        "date": "2026-10-06",
+        "kind": "synthetique",
+        "licence": "CC0-1.0"
+      }
+    }
+  ]
+}
